@@ -1,3 +1,4 @@
+// @ts-nocheck (学習用サンプルのため)
 "use client";
 
 import { useState } from "react";

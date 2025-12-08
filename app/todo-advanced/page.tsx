@@ -27,7 +27,7 @@ export default function Page() {
     }
   }
 
-  function toggleTodo(id) {
+  function toggleTodo(id: number) {
     const newTodos = [];
     for (let i = 0; i < todos.length; i += 1) {
       if (todos[i].id === id) {
@@ -43,7 +43,7 @@ export default function Page() {
     setTodos(newTodos);
   }
 
-  function deleteTodo(id) {
+  function deleteTodo(id: number) {
     const newTodos = [];
     for (let i = 0; i < todos.length; i += 1) {
       if (todos[i].id !== id) {
